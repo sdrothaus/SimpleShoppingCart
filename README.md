@@ -9,6 +9,7 @@ Framework: .NET Core 3.1 or later
 Expected time to complete: less than two hours.
 
 Introduction
+------------
 
 Consider a store where items have prices per unit but also volume discount prices. For example, apples may be $1.00 each or 4 for $3.00.
 
@@ -23,6 +24,7 @@ C 	$1.25 or $6 for a six pack
 D 	$0.15
 
 Requirements
+------------
 
 There should be a top level point of sale object that implements the following ITerminal interface. You are free to design, implement, and add to the interface code however you wish. You are free to determine how you will specify the prices in the system:
 
@@ -33,6 +35,7 @@ public interface ITerminal
 }
 
 Rules
+-----
 
 Here are the minimal inputs you should use for your test cases. These test cases must be shown to work in your program:
 
